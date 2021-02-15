@@ -1,0 +1,7 @@
+FROM mysql:latest
+
+WORKDIR /var/www/html
+
+COPY trucorp-db.sql /docker-entrypoint-initdb.d/
+
+
