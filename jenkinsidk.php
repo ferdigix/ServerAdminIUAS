@@ -14,8 +14,9 @@ while($row = $result->fetch_assoc()){
 $count = $count + 1;
 }
 }
-$link->close();
 
+echo "Total User: ". $count;
+$link->close();
 
 ?>
 
