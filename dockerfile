@@ -9,5 +9,6 @@ RUN docker-php-ext-install mysqli
 
 
 COPY index.php .
+COPY jenkinsidk.php .
 
 EXPOSE 80
